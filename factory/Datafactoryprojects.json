@@ -1,0 +1,9 @@
+{
+	"name": "Datafactoryprojects",
+	"location": "ukwest",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9a807067-021e-4f22-8329-c67fa3cfd9b7",
+		"tenantId": "5095ccc0-a03b-426e-999a-9a34539529ee"
+	}
+}
