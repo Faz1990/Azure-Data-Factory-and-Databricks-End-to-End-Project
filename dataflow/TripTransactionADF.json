@@ -28,9 +28,6 @@
 				}
 			],
 			"scriptLines": [
-				"parameters{",
-				"     parameter1 as string",
-				"}",
 				"source(output(",
 				"          trip_id as long,",
 				"          trip_start_timestamp as timestamp,",
