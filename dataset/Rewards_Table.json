@@ -1,0 +1,45 @@
+{
+	"name": "Rewards_Table",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "pproDB",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "trip_id",
+				"type": "bigint",
+				"precision": 19
+			},
+			{
+				"name": "customer_rating",
+				"type": "bigint",
+				"precision": 19
+			},
+			{
+				"name": "driver_rating",
+				"type": "bigint",
+				"precision": 19
+			},
+			{
+				"name": "customer_id",
+				"type": "bigint",
+				"precision": 19
+			},
+			{
+				"name": "driver_id",
+				"type": "nvarchar"
+			},
+			{
+				"name": "_rescued_data",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "ride_ratings"
+		}
+	}
+}
