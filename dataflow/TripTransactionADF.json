@@ -61,7 +61,7 @@
 				"     validateSchema: false,",
 				"     format: 'delta',",
 				"     fileSystem: 'deltalake',",
-				"     folderPath: 'BRONZE',",
+				"     folderPath: 'BRONZE/Trip_Transactions',",
 				"     mergeSchema: false,",
 				"     autoCompact: false,",
 				"     optimizedWrite: false,",
